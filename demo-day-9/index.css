@@ -1,0 +1,104 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+}
+
+.logo{
+    width: 200px;
+}
+
+.nav-items{
+    font-size: 20px;
+}
+
+.nav-items > ul{
+    display: flex;
+    padding: 0 20px;
+    list-style: none;
+}
+.top-res{
+    padding: 12px 40px;
+    border: 2px solid #FF69B4;
+}
+.search-btn{
+    padding: 12px 40px;
+    border: 2px solid #FF69B4;
+}
+.search-box{
+    padding: 12px 40px;
+    border: 2px solid #FF69B4;
+}
+.nav-items > ul > li{
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #FF69B4;
+    color: black;
+    border: 2px solid #FF69B4;
+    color:white;
+}
+
+.search{
+    padding: 10px;
+}
+
+.res-container{
+    grid-template-columns: repeat(4, 1fr);
+    gap: 32px;
+    margin: 32px 16px;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+
+.res-card{
+    position: relative;
+    width: 100%;
+    height: 370px;
+    border-radius: 16px;
+    overflow: hidden;
+    filter: drop-shadow(rgba(0, 0, 0, 0.1) 0px 2px 8px);
+    margin: 5px;
+    width: 200px;
+    padding: 5px;
+    background-color: #FF69B4;
+    color: white;
+    overflow-wrap: break-word;
+}
+
+.res-card:hover{
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+.res-logo{
+    width: 100%;
+    height:50%;
+}
+
+.filter-btn{
+    margin: 10px;
+    cursor: pointer;
+}
+
+.shimmer-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.shimmer-card{
+    width: 200;
+    height: 200;
+    background-color: #f0f0f0;
+    margin: 20px;
+}
+
+.filter{
+    display: flex;
+}
+
+.restaurant-link{
+  color: inherit; /* blue colors for links too */
+  text-decoration: inherit; /* no underline */
+}
